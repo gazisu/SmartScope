@@ -1,15 +1,12 @@
-import { Component } from "@angular/core";
-
-
+import { Component } from '@angular/core';
 
 @Component({
-    selector: 'app-property-card',
-    // template: '<h1> i am gazi</h1>',
-    template: 'proerty-card.component.html',
-    // styles: ['h1 (font-weight: normal;)']
-    styleUrls: ['property-card.component.css']
-
+  selector: 'app-property-card',
+  standalone: true,
+  imports: [],
+  templateUrl: './property-card.component.html',
+  styleUrl: './property-card.component.css'
 })
-export class PropertyCardComponent{
-    
+export class PropertyCardComponent {
+
 }
