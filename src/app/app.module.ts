@@ -6,10 +6,7 @@ import { PropertyCardComponent } from "./property/property-card/property-card.co
 
 
 @NgModule({
-    declarations: [
-        AppComponent,
-        PropertyCardComponent
-    ],
+  
     imports:[BrowserModule],
     providers:[],
     bootstrap:[AppComponent]
